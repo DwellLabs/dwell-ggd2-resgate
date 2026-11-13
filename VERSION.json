@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "release": "V002",
+  "files_sha256": {
+    "index.html": "cecf9d30a1003c6ed9c150bfa54953af5742177c6679041e39c4191fa5475537",
+    "README.md": "bc44f9f4774d361def51d220b0cb5c02ec55dd4103533602c6c20198130fbc06",
+    "CHANGELOG.md": "c1e7b43aa438b51ea709cb0baa89bc6f49e2d9c3615628147e95b417be68a854",
+    "assets/ggd2-resgate-v002.js": "cea6f81781afaeee3e8d0e90fca9fac0374f9146e18c5ed59fc4256b7cd1e82c",
+    "assets/ggd2-resgate-v002.css": "3549e8227836bdb12967c9029edef927a9ac6dbbc73cf95a1bcd6714c63df1c4",
+    "assets/dwell-shell-v017.css": "c77e4d3cbe5a9f715a89957d956cb28be81056cddb172955a59db274f8463244",
+    "assets/logo-dwell.png": "063e519252ca79763b120163f904c0f1ddb6f01676968140957e229984ce1f36",
+    "assets/logo-altar.png": "bf447c35fabe08141da6e6bd2b5bdf3665316ac2b6ef1ae32adfba6e18ae6669",
+    "integration/dwell_ggd2_resgate_v002.py": "1fb3d7ba7ccefc2ea11eea784d41128c2dd39528208365e2b62790899b62e2a4",
+    "integration/ggd2-resgate-v002.html": "0289ef977ffa83b8349ff5ede80b7d01902debd7a8b1dd055977a70a6d064b5f",
+    "integration/README.md": "176b0389d7efd26f0e0e23a45b6a785215e7fd0bcba105a56dd07e9e979f21a8"
+  },
+  "runtime_dependencies": [
+    "Google Identity Services",
+    "Google Drive API"
+  ],
+  "private_data_in_repository": false
+}

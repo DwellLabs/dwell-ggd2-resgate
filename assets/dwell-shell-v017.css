@@ -1,0 +1,130 @@
+
+/* DWELL SHELL V017 — canonical sub-area header; independent of each module's theme */
+.dw-shell-header-v017 {
+  --dw-shell-bg:#f5f3ed;--dw-shell-ink:#263445;--dw-shell-gold:#b99f69;
+  display:grid!important;
+  grid-template-columns:minmax(90px,1fr) minmax(190px,1.55fr) minmax(90px,1fr)!important;
+  grid-template-areas:"logo center altar"!important;
+  align-items:center!important;
+  gap:10px 16px!important;
+  min-height:108px!important;
+  margin:0!important;
+  padding:15px clamp(15px,3vw,42px)!important;
+  background:var(--dw-shell-bg)!important;
+  border:0!important;border-bottom:1px solid #c9b88d!important;
+  color:var(--dw-shell-ink)!important;
+  box-shadow:none!important;
+  box-sizing:border-box!important;
+  max-width:none!important;
+}
+.dw-shell-header-v017 .dw-shell-logo-v017 {
+  grid-area:logo;display:flex;align-items:center;justify-content:flex-start;
+  border:0!important;padding:0!important;margin:0!important;
+  background:none!important;box-shadow:none!important;max-width:195px;
+  min-width:0!important;min-height:56px;text-decoration:none!important;
+  transition:opacity .15s ease;
+}
+.dw-shell-header-v017 .dw-shell-logo-v017:hover{opacity:.8}
+.dw-shell-header-v017 .dw-shell-logo-v017:focus-visible,
+.dw-shell-header-v017 .dw-shell-return-v017:focus-visible{
+  outline:3px solid #bc9e63!important;outline-offset:3px!important;border-radius:8px;
+}
+.dw-shell-header-v017 .dw-shell-logo-v017 img {
+  display:block!important;object-fit:contain!important;object-position:left center;
+  width:min(100%,180px)!important;height:68px!important;max-width:180px!important;
+  max-height:68px!important;filter:none!important;margin:0!important;
+}
+.dw-shell-header-v017 .dw-shell-center-v017,
+.dw-shell-header-v017 .dw-shell-heading-v017{
+  grid-area:center;display:grid!important;gap:4px;min-width:0;
+  justify-items:center;text-align:center!important;color:var(--dw-shell-ink)!important;
+  margin:0!important;padding:0!important;
+}
+.dw-shell-header-v017 .dw-shell-mark-v017{
+  font-size:10px!important;letter-spacing:.16em!important;
+  font-weight:700!important;line-height:1.3!important;
+  color:#896d3c!important;text-transform:uppercase;
+}
+.dw-shell-header-v017 .dw-shell-title-v017,
+.dw-shell-header-v017 .dw-shell-heading-v017 h1,
+.dw-shell-header-v017 .dw-shell-heading-v017 strong{
+  margin:0!important;padding:0!important;line-height:1.2!important;
+  font-size:clamp(17px,2.1vw,25px)!important;
+  letter-spacing:-.02em!important;font-weight:700!important;
+  color:var(--dw-shell-ink)!important;
+}
+.dw-shell-header-v017 .dw-shell-return-v017,
+.dw-shell-header-v017 #dw-nav-v13 .dw-nav-home-v14,
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-home-v14 {
+  display:inline-flex!important;align-items:center;justify-content:center;
+  width:fit-content;min-height:25px;padding:0 5px!important;margin:4px 0 0!important;
+  border:0!important;border-radius:4px!important;
+  background:transparent!important;color:#6e614a!important;
+  font-size:12px!important;line-height:1.3!important;text-decoration:underline!important;
+  text-decoration-thickness:1px;text-underline-offset:3px;
+  font-weight:550!important;letter-spacing:0!important;box-shadow:none!important;
+}
+.dw-shell-header-v017 .dw-shell-altar-v017 {
+  grid-area:altar;justify-self:end;display:block!important;
+  object-fit:contain!important;object-position:right center!important;
+  width:min(100%,170px)!important;height:68px!important;
+  max-width:170px!important;max-height:68px!important;filter:none!important;
+  margin:0!important;padding:0!important;
+}
+.dw-shell-header-v017 .dw-shell-right-v017{grid-area:altar;justify-self:end;display:flex;gap:10px;align-items:center;}
+.dw-shell-header-v017 .dw-shell-right-v017 .dw-shell-altar-v017{grid-area:auto;}
+.dw-shell-header-v017 .dw-shell-right-v017 .health-pill{font-size:10px!important;white-space:nowrap;}
+/* The WhatsApp area retains its navigational tabs as a separate second row. */
+#dw-nav-v13.dw-shell-header-v017 {
+  grid-template-areas:"logo center altar" "links links links" "notice notice notice"!important;
+  grid-template-rows:auto auto auto!important;min-height:126px!important;
+  padding:10px clamp(12px,3vw,36px) 8px!important;row-gap:6px!important;
+}
+#dw-nav-v13.dw-shell-header-v017 .dw-shell-logo-v017{grid-area:logo;align-self:center;}
+#dw-nav-v13.dw-shell-header-v017 .dw-shell-center-v017{grid-area:center;}
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-wording{display:grid;gap:2px;}
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-wording .dw-nav-mark{
+  font-size:10px!important;color:#896d3c!important;
+}
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-wording h1{
+  font-size:clamp(18px,2vw,24px)!important;margin:0!important;
+  text-align:center!important;color:#263445!important;
+}
+#dw-nav-v13.dw-shell-header-v017 .dw-shell-altar-v017{grid-area:altar;}
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-links{
+  grid-area:links;display:flex!important;justify-content:center!important;
+  align-items:center!important;gap:5px!important;flex-wrap:wrap;justify-self:center;
+  padding:0 0 2px;margin:0;
+}
+#dw-nav-v13.dw-shell-header-v017 #dw-nav-notice-v13{grid-area:notice;min-width:0;}
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-link{min-height:35px!important;padding:7px 12px!important;}
+#dw-nav-v13.dw-shell-header-v017 .dw-nav-new-message-v15{min-height:35px!important;}
+/* Theme overrides, so QUOTA/TikTok/Clean all render the same light header */
+header.top.dw-shell-header-v017,header.topbar.dw-shell-header-v017,
+header.dw-shell-header-v017,div.dw-shell-header-v017 {background:#f5f3ed!important;color:#263445!important;}
+header.topbar.dw-shell-outer-v017{background:#f5f3ed!important;border-bottom:0!important;}
+header.topbar.dw-shell-outer-v017>.dw-shell-header-v017{width:100%!important;max-width:none!important;}
+.dw-shell-legacy-back-v017{display:none!important}
+@media(max-width:700px){
+ .dw-shell-header-v017{
+  grid-template-columns:minmax(58px,1fr) minmax(125px,2fr) minmax(58px,1fr)!important;
+  min-height:80px!important;padding:9px 10px!important;gap:6px!important;
+ }
+ .dw-shell-header-v017 .dw-shell-logo-v017{min-height:40px;}
+ .dw-shell-header-v017 .dw-shell-logo-v017 img{
+  height:42px!important;max-height:42px!important;width:min(100%,105px)!important;
+ }
+ .dw-shell-header-v017 .dw-shell-altar-v017{
+  height:41px!important;max-height:41px!important;width:min(100%,92px)!important;
+  display:block!important;
+ }
+ .dw-shell-header-v017 .dw-shell-title-v017,
+ .dw-shell-header-v017 .dw-shell-heading-v017 h1,
+ .dw-shell-header-v017 .dw-shell-heading-v017 strong{font-size:15px!important;}
+ .dw-shell-header-v017 .dw-shell-mark-v017{font-size:8px!important;letter-spacing:.09em!important;}
+ .dw-shell-header-v017 .dw-shell-return-v017,
+ #dw-nav-v13.dw-shell-header-v017 .dw-nav-home-v14{font-size:10px!important;min-height:23px;}
+ .dw-shell-header-v017 .dw-shell-right-v017 .health-pill{display:none!important;}
+ #dw-nav-v13.dw-shell-header-v017 .dw-nav-links{max-width:100%;overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start!important;}
+ #dw-nav-v13.dw-shell-header-v017 .dw-nav-link{font-size:11px!important;white-space:nowrap;}
+}

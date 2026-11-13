@@ -1,0 +1,3 @@
+# Integração Control Center
+
+O módulo Python deve ser chamado somente depois da autenticação existente. Rotas: GET /resgate-ggd2 e GET /api/resgate-ggd2/version. A variante com barra final redireciona à rota canônica. Adicionar apenas os assets ggd2-resgate-v002.js e .css à allowlist existente. O HTML usa __BASE__, tratado pelo renderizador do painel. Incluir um link em cada menu desktop/móvel sem alterar as áreas existentes. A CSP Google é substituída exclusivamente na resposta HTML da nova subárea; nenhum proxy de dados Google ou token é criado no servidor. O backup de rollback e o recibo de instalação são privados e não integram este repositório público.
