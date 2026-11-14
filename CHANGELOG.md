@@ -1,5 +1,10 @@
 # Histórico
 
+## 0.3.0 — 2026-11-13
+- Navegação hierárquica com árvore expansível e consultas sob demanda ao Google Drive.
+- Informação de tamanho corrigida para diferenciar arquivos diretos e conteúdos aninhados.
+- Rotas de autenticação, operações de leitura e downloads preservados; sem varredura recursiva automática.
+
 ## 0.2.0 — 2026-11-13
 - Subárea autenticada no Control Center GoDaddy e navegação desktop/móvel para Resgate GGD2.
 - Cabeçalho canônico DWËLL, menus transversais e retorno ao início.

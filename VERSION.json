@@ -1,18 +1,18 @@
 {
-  "version": "0.2.0",
-  "release": "V002",
+  "version": "0.3.0",
+  "release": "V003",
   "files_sha256": {
-    "index.html": "cecf9d30a1003c6ed9c150bfa54953af5742177c6679041e39c4191fa5475537",
-    "README.md": "bc44f9f4774d361def51d220b0cb5c02ec55dd4103533602c6c20198130fbc06",
-    "CHANGELOG.md": "c1e7b43aa438b51ea709cb0baa89bc6f49e2d9c3615628147e95b417be68a854",
-    "assets/ggd2-resgate-v002.js": "cea6f81781afaeee3e8d0e90fca9fac0374f9146e18c5ed59fc4256b7cd1e82c",
-    "assets/ggd2-resgate-v002.css": "3549e8227836bdb12967c9029edef927a9ac6dbbc73cf95a1bcd6714c63df1c4",
+    "index.html": "117dd3e26b4bf0629f1d7d5c7885db7b81a7f26900b8cc4b1e42bdf3f1f34916",
+    "README.md": "a9ee238d43eb5071c923a5899f2d5494eeea4cd29f50419ace528fde8f186da5",
+    "CHANGELOG.md": "341b84297a4a3a2bc6b359b41cc3f260fb1d0f8c986ba54b65dd394ab03d34c6",
+    "assets/ggd2-resgate-v003.js": "5258c24d8b215cf1757bc25d3cc7cdc4ecf031bc379d9dbca9be9b4dd94e0bf8",
+    "assets/ggd2-resgate-v003.css": "bf326190732347f928b216ba4120bcb36b81bf7c8682e58a94d81f5f31d4a278",
     "assets/dwell-shell-v017.css": "c77e4d3cbe5a9f715a89957d956cb28be81056cddb172955a59db274f8463244",
     "assets/logo-dwell.png": "063e519252ca79763b120163f904c0f1ddb6f01676968140957e229984ce1f36",
     "assets/logo-altar.png": "bf447c35fabe08141da6e6bd2b5bdf3665316ac2b6ef1ae32adfba6e18ae6669",
-    "integration/dwell_ggd2_resgate_v002.py": "1fb3d7ba7ccefc2ea11eea784d41128c2dd39528208365e2b62790899b62e2a4",
-    "integration/ggd2-resgate-v002.html": "0289ef977ffa83b8349ff5ede80b7d01902debd7a8b1dd055977a70a6d064b5f",
-    "integration/README.md": "176b0389d7efd26f0e0e23a45b6a785215e7fd0bcba105a56dd07e9e979f21a8"
+    "integration/dwell_ggd2_resgate_v003.py": "b2ab81d84b945844c23fce221b9e5ece4fd49fc2df243526ddc427c2dbd2b7e8",
+    "integration/ggd2-resgate-v003.html": "c2372fe65442ad851533d88c6cba3015231b4dabd130b21630d3d0e1928c822f",
+    "integration/README.md": "51fd8bb4e65a1307a0219f0ce7adaf593fb6cc8b232626a2d8cd3d1698c63054"
   },
   "runtime_dependencies": [
     "Google Identity Services",
